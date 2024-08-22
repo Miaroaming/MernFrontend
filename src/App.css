@@ -97,3 +97,48 @@ div.error {
   border-radius: 8px;
   margin: 20px 0;
 }
+
+#title-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 20px;
+}
+
+span:hover {
+  cursor: pointer;
+  background-color: rgb(44, 179, 26);
+  padding: 7px;
+  border-radius: 100px;
+}
+
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+
+.singleworkout {
+  color: white;
+}
